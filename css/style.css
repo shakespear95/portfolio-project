@@ -1,15 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 body {
   
   width: 375px;
   height: 718px;
   background-color: white;
   margin: auto;
+  padding-bottom: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  margin: 25px 18px 0px 0px;
+}
+.home {
+  background-image: url('../img/header-shapes\ mobile.png');
+}
+.middle{
+  padding-left: 10px;
+}
+.mylogo{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF;
+padding-left: 1rem;
 }
 .text1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -22,7 +50,7 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #344563; 
   flex-grow: 0; 
