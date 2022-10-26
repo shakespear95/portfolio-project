@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
 
 body {
   width: 375px;
@@ -15,8 +15,7 @@ nav {
 }
 
 .options {
-  /* stylelint-disable-next-line length-zero-no-unit */
-  margin: 25px 18px 0px 0px;
+  margin: 25px 18px 0 0;
 }
 
 .home {
@@ -24,12 +23,11 @@ nav {
 }
 
 .middle {
-  padding-left: 10px;
+  padding: 0 7.5%;
 }
 
 .mylogo {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif, cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -37,29 +35,31 @@ nav {
   display: flex;
   align-items: center;
   text-align: center;
-  /* stylelint-disable-next-line color-hex-case */
-  color: #6070FF;
+  color: #6070ff;
   padding-left: 1rem;
 }
 
+.mylogo > h1 > a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
 .text1 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: xx-large;
   line-height: 52px;
   display: flex;
   align-items: center;
-  /* stylelint-disable-next-line color-hex-case */
-  color: #172B4D;
+  margin-top: 10%;
+  color: #172b4d;
 }
 
 .text2 {
   width: 327px;
   height: 146px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -69,10 +69,8 @@ nav {
 }
 
 .text3 {
-  /* stylelint-disable-next-line color-hex-case */
-  color: #7F8CFF;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Poppins';
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -81,15 +79,20 @@ nav {
 
 .links {
   display: flex;
+  gap: 1em;
+  padding-left: 0;
 }
 
-/* stylelint-disable-next-line selector-list-comma-newline-after */
-.tweeter, .Linkd, .cat {
-  /* stylelint-disable-next-line length-zero-no-unit */
-  margin: 0px 20px 0px 0px;
+.links > li {
+  list-style: none;
+}
+
+.tweeter,
+.Linkd,
+.cat {
+  margin: 0 20px 0 0;
 }
 
 .messages {
-  /* stylelint-disable-next-line length-zero-no-unit */
-  margin: 4px 20px 0px 0px;
+  margin: 4px 20px 0 0;
 }
