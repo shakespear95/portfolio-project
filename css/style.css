@@ -531,3 +531,7 @@ button:active {
   border-color: #333;
   color: #eee;
 }
+
+.connect {
+  padding-bottom: 5em;
+}
