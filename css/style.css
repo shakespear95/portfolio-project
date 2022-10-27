@@ -349,7 +349,6 @@ nav {
 .contactme {
   background-image: url(../img/contact.png);
   padding-top: 2.5em;
- 
 }
 
 .contactme h2 {
@@ -442,8 +441,6 @@ nav {
   border: 1px solid #cfd8dc;
   background: #fff;
 }
-
-
 
 #email {
   margin: 0 0 1px 13px;
@@ -551,7 +548,7 @@ button:active {
 .javaa > p,
 .httm > p,
 .cxs > p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
