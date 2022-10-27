@@ -66,13 +66,15 @@ nav {
   color: #344563;
 }
 
-.text3 > h1 {
+/* stylelint-disable-next-line no-descending-specificity */
+.text3 a {
   color: #7f8cff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .links {
@@ -401,7 +403,7 @@ nav {
 
 #textarea {
   margin: 0 0 1px 13px;
-  width: 284px;
+  width: 343px;
   height: 117px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -435,7 +437,7 @@ nav {
 
 #name {
   margin: 0 0 1px 13px;
-  width: 284px;
+  width: 343px;
   height: 33px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -444,7 +446,7 @@ nav {
 
 #email {
   margin: 0 0 1px 13px;
-  width: 284px;
+  width: 343px;
   height: 33px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -487,7 +489,7 @@ nav {
 .buttonlanguage {
   width: 161px;
   height: 55px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
