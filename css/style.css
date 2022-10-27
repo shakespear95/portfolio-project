@@ -97,6 +97,24 @@ nav {
   margin: 4px 20px 0 0;
 }
 
+.portfolio-container {
+  display: grid;
+  grid-column: auto;
+}
+
+.portfolio-container > div {
+  margin-top: 2.5em;
+}
+
+.lastsection {
+  display: grid;
+  grid-column: auto;
+}
+
+.lastsection > div {
+  margin-top: 2.5em;
+}
+
 .tonic,
 .multi2,
 .multi-post,
@@ -121,14 +139,24 @@ nav {
   border-radius: 8px;
 }
 
-.tonichead {
+.tonichead1 h2 {
   width: 295px;
   height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin: -33px 0 -33px 4px;
+  margin: -6px 0 0 0;
+}
+
+.tonichead2 h2 {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 1px 0 -41px 4px;
 }
 
 .toniclists1 {
@@ -140,7 +168,7 @@ nav {
   width: 300px;
   height: 32px;
   padding-top: 15px;
-  margin: 101px 0 0 0;
+  margin: 29px 0 0 0;
 }
 
 .canopy {
@@ -298,7 +326,7 @@ nav {
 .jstext,
 .csstext,
 .htmltext {
-  margin: 0 0 0 39px;
+  margin: 0 0 0 19px;
 }
 
 .jstext > p,
@@ -323,6 +351,7 @@ nav {
 .contactme {
   background-image: url(../img/contact.png);
   padding-top: 2.5em;
+  padding-bottom: -10px;
 }
 
 .contactme h2 {
@@ -338,7 +367,6 @@ nav {
 }
 
 .contacttext {
-  width: 327px;
   height: 102px;
   top: 4802px;
   font-family: 'Poppins', sans-serif;
@@ -376,7 +404,7 @@ nav {
 
 #textarea {
   margin: 0 0 1px 13px;
-  width: 336px;
+  width: 284px;
   height: 117px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -410,7 +438,7 @@ nav {
 
 #name {
   margin: 0 0 1px 13px;
-  width: 336px;
+  width: 284px;
   height: 33px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -419,7 +447,7 @@ nav {
 
 #email {
   margin: 0 0 1px 13px;
-  width: 336px;
+  width: 284px;
   height: 33px;
   border-radius: 9px;
   border: 1px solid #cfd8dc;
@@ -453,7 +481,7 @@ nav {
   display: flex;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0 195px 0 0;
+  margin: 0 168px 0 0;
   color: #396df2;
   border: 1px solid #6070ff;
   height: 48px;
@@ -491,4 +519,15 @@ nav {
   display: flex;
   align-items: center;
   color: #000;
+}
+
+button:hover {
+  background-color: #396df2;
+  color: #eee;
+}
+
+button:active {
+  background-color: blue;
+  border-color: #333;
+  color: #eee;
 }
