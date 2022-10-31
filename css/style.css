@@ -221,8 +221,6 @@ nav {
 
 .skills {
   list-style: none;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -242,6 +240,7 @@ nav {
   width: 53px;
   height: 24px;
   text-align: center;
+  float: left;
 }
 
 .skills > :nth-child(2) {
@@ -257,6 +256,7 @@ nav {
   width: 53px;
   height: 24px;
   text-align: center;
+  float: left;
 }
 
 .skills > :nth-child(3) {
@@ -272,6 +272,7 @@ nav {
   width: 89px;
   height: 24px;
   text-align: center;
+  float: right;
 }
 
 .mainbox {
