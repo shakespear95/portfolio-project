@@ -410,12 +410,11 @@ nav {
   border-radius: 9px;
   border: 1px solid #cfd8dc;
   background: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 0 0 20px 13px;
   color: #b3bac5;
 }
 
@@ -576,5 +575,3 @@ button:active,
 .contactme img {
   margin: 0 12px 14px 100px;
 }
-
-
