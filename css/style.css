@@ -520,12 +520,14 @@ nav {
   color: #000;
 }
 
-button:hover {
+button:hover,
+#submit:hover {
   background-color: #396df2;
   color: #eee;
 }
 
-button:active {
+button:active,
+#submit:active {
   background-color: blue;
   border-color: #333;
   color: #eee;
@@ -558,4 +560,8 @@ button:active {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+.contactme img {
+  margin: 0 12px 14px 100px;
 }
